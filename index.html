@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Fund This App</title>
-  </head>
-  <body>
-    Funding app
-    <script src="./index.js" type="module">
 
-    </script>
-    <button id="connectButton">Connect To MetaMask</button>
-    <button id="fundButton">Fund</button>
-  </body>
+<head>
+  <title>Fund This App</title>
+</head>
+
+<body>
+  Simple Funding App
+  <script src="./index.js" type="module">
+
+  </script>
+  <br /><br />
+  <button id="connectButton">Connect Your Metamask Wallet</button><br /><br />
+  <!-- <form> -->
+  <button type="button" id="fundButton"> Fund </button>
+  <label for="ethAmount">ETH Amount</label>
+  <input id="ethAmount" placeholder="0.1" type="number" /><br /><br />
+
+  <button id="balanceButton">getBalance</button><br /><br />
+  <button id="withdrawButton">Withdraw</button><br /><br />
+
+</body>
+
 </html>

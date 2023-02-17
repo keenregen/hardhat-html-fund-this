@@ -1,3 +1,3 @@
 # Hardhat Study 1b
 
-## FundThis Frontend with html and js
+## FundThis Project Frontend with html and js
